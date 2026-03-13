@@ -1,6 +1,6 @@
 # Tokenizer Project
 
-## This project is a small CLI playground for exploring and comparing Hugging Face tokenizers.
+## This project is a small CLI playground for exploring and comparing Trained LLM tokenizers.
 
 It lets you enter any text (or use the built-in sample that includes capitalization, Unicode, whitespace, and operators), then:
 
