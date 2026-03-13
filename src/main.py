@@ -29,10 +29,11 @@ def main() -> None:
 
     sentence = input("Enter the text to tokenize: ").strip()
     if len(sentence) == 0:
-        print("As no sentence entered to tokenize assigning the default sentence")
+        print("As no text entered to tokenize, assigning the default text")
         sentence = text
+
     compareModel = input(
-        "Press Enter key to continue to enter text or insert 1 to compare the models with default text: "
+        "Press Enter key to continue to enter text or insert 1 to compare the models with given or default text: "
     ).strip()
 
     if int(compareModel) == 1:
