@@ -4,8 +4,8 @@
 
 It lets you enter any text (or use the built-in sample that includes capitalization, Unicode, whitespace, and operators), then:
 
-- Tokenize with a selected model via transformers.AutoTokenizer.from_pretrained(...).
-- Print the tokenizer’s vocabulary size, the token strings (tokenizer.tokenize(...)), and the token IDs.
+- Tokenize with a selected model via transformers.AutoTokenizer.from_pretrained.
+- Print the tokenizer’s vocabulary size, the token strings (tokenizer.tokenize), and the token IDs.
 - Visualize the tokenization in the terminal by decoding each token ID and printing it with alternating ANSI background colors (so you can see token boundaries at a glance).
 
 
