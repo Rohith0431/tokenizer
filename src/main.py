@@ -36,7 +36,7 @@ def main() -> None:
         "Press Enter key to continue to enter text or insert 1 to compare the models with given or default text: "
     ).strip()
 
-    if int(compareModel) == 1:
+    if len(compareModel) and int(compareModel) == 1:
         compare_models(sentence)
         return
 
