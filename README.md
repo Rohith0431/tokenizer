@@ -2,7 +2,7 @@
 
 ## This project is a small CLI playground for exploring and comparing Trained LLM tokenizers.
 
-It lets you enter any text (or use the built-in sample that includes capitalization, unicode, Whitespace, and Operators), then:
+It lets you enter any text (or use the built-in sample that includes Capitalization, unicode, Whitespace, and Operators), then:
 
 - Tokenize with a selected model via transformers.AutoTokenizer.from_pretrained.
 - Print the tokenizer’s vocabulary size, the token strings (tokenizer.tokenize), and the token IDs.
